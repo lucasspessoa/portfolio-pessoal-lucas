@@ -24,7 +24,7 @@ st.write("""
 """)
 
 # Opção para download do currículo
-with open("portfolio-pessoal-lucas\CV_Analista_Lucas.pdf", "rb") as pdf_file:
+with open("CV_Analista_Lucas.pdf", "rb") as pdf_file:
     pdf_data = pdf_file.read()
 st.download_button("Baixar Currículo", data=pdf_data, file_name="CV_Analista_Lucas.pdf")
 
