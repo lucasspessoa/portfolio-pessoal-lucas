@@ -1,7 +1,7 @@
 import streamlit as st
 
 # Configurações da Página
-st.set_page_config(page_title="Lucas da Silva Pessoa - Portfólio", layout="centered")
+st.set_page_config(page_title="Portfólio: Lucas da Silva Pessoa", layout="centered")
 
 # Seção 1: Boas-Vindas
 st.title("Lucas da Silva Pessoa")
@@ -12,20 +12,21 @@ st.write("""
 """)
 
 # Links para redes sociais
-st.write("[LinkedIn](https://linkedin.com/in/01lucaspessoa) | [GitHub](https://github.com/seu-usuario)")
+st.write("[LinkedIn](https://linkedin.com/in/01lucaspessoa) | [GitHub](https://github.com/lucasspessoa)")
 
 # Seção 2: Currículo (Resume)
 st.header("Currículo")
 st.write("Aqui estão alguns dos meus destaques profissionais:")
 st.write("""
-- **Experiência**: Assistente Administrativo Jr. na GFT, com foco em precificação e análise de dados.
-- **Educação**: 5º semestre de Ciências Econômicas na UFC.
-- **Habilidades**: Power BI, SQL Server, Python, Excel.
+- **Experiência**: Assistente Administrativo Jr. na GFT, com destaque em precificação, análise de dados e automação de tarefas.
+- **Educação**: cursando Ciências Econômicas na UFC.
+- **Habilidades**: Power BI, SQL, Python, Excel.
 """)
+
 # Opção para download do currículo
-with open("Lucas_da_Silva_Pessoa_CV.pdf", "rb") as pdf_file:
+with open("portfolio-pessoal-lucas\CV_Analista_Lucas.pdf", "rb") as pdf_file:
     pdf_data = pdf_file.read()
-st.download_button("Baixar Currículo", data=pdf_data, file_name="Lucas_da_Silva_Pessoa_CV.pdf")
+st.download_button("Baixar Currículo", data=pdf_data, file_name="CV_Analista_Lucas.pdf")
 
 # Seção 3: Projetos
 st.header("Projetos")
