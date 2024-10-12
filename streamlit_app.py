@@ -5,15 +5,16 @@ st.set_page_config(page_title="Portfólio: Lucas da Silva Pessoa", layout="cente
 
 # Navegação Simples com Sidebar
 st.sidebar.title("Navegação")
-page = st.sidebar.selectbox("Escolha uma seção", ["Início / Currículo / Objetivos / Contato", "Projetos"])
+page = st.sidebar.selectbox("Escolha uma seção", ["Currículo", "Projetos Realizados"])
 
-# Seção 1: Início, Currículo, Objetivos Profissionais, Contato
-if page == "Início / Currículo / Objetivos / Contato":
+# Seção 1: Currículo
+if page == "Currículo":
     st.title("Lucas da Silva Pessoa")
     st.subheader("Analista de Dados | Estudante de Ciências Econômicas")
     st.write("""
         Olá! Eu sou o Lucas, um entusiasta em análise de dados, apaixonado por transformar dados em insights.
-        Este é o meu portfólio, onde você pode encontrar meus projetos, experiência e objetivos de carreira.
+        Este é o meu portfólio, onde você pode encontrar, nesta seção, informações pessoais/profissionais, contato e objetivos.
+        Projetos e suas descrições você confere na seção Projetos Realizados, na barra de Navegação ao lado.
     """)
 
     # Links para redes sociais
@@ -23,9 +24,12 @@ if page == "Início / Currículo / Objetivos / Contato":
     st.header("Currículo")
     st.write("Aqui estão alguns dos meus destaques profissionais:")
     st.write("""
-    - **Experiência**: Assistente Administrativo Jr. na GFT, com destaque em precificação, análise de dados e automação de tarefas.
-    - **Educação**: cursando Ciências Econômicas na UFC.
-    - **Habilidades**: Power BI, SQL, Python, Excel.
+    - **Experiência**: Assistente Administrativo Jr. na GFT Promotora de Crédito Consignado.
+    Ao longo de mais de dois anos, desempenhei atividades de Pricing e Inteligência de Mercado, com o objetivo de colocar o produto da empresa como destaque frente à concorrência; 
+    Para atender ao objetivo descrito acima, atividades de análise de dados internos da empresa em Banco de Dados Relacionais foram necessários;
+    Além disso, realizei atividades de automação de tarefas para otimização de tempo.
+    - **Educação**: cursando Ciências Econômicas na Universidade Federal do Ceará.
+    - **Habilidades**: Estatística; Microeconomia; Power BI; SQL; Python; e Excel, com destaque em Power Query.
     """)
 
     # Opção para download do currículo
@@ -37,8 +41,8 @@ if page == "Início / Currículo / Objetivos / Contato":
     st.header("Objetivos Profissionais")
     st.write("""
     Estou buscando oportunidades para:
-    - Continuar aprimorando minhas habilidades em **Power BI**, **SQL**, e **Python**.
-    - Trabalhar em projetos que envolvam **ciência de dados** e **automação de processos**.
+    - Continuar aprimorando minhas habilidades em ferramentas como **Power BI**, **Excel**, **SQL**, e **Python**.
+    - Trabalhar em projetos que envolvam **Ciência de Dados** ou **Estatística** e **Automação de Processos**.
     - Contribuir para o desenvolvimento de estratégias baseadas em dados que impactem diretamente a tomada de decisão nas empresas.
     """)
 
@@ -47,7 +51,7 @@ if page == "Início / Currículo / Objetivos / Contato":
     st.write("Se você quiser me contatar para colaborações ou oportunidades de trabalho, entre em contato via e-mail ou telefone.")
     st.write("""
     - **E-mail**: lucaspfc05@gmail.com
-    - **Telefone**: (85) 992398429
+    - **Telefone**: (85) 99239-8429
     """)
 
     # Formulário de contato opcional
@@ -58,7 +62,7 @@ if page == "Início / Currículo / Objetivos / Contato":
         st.write(f"Obrigado pela mensagem, {nome}! Entraremos em contato em breve.")
 
 # Seção 2: Projetos
-elif page == "Projetos":
+elif page == "Projetos Realizados":
     st.header("Projetos")
     st.write("Aqui estão alguns dos projetos em que trabalhei:")
 
