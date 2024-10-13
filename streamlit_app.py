@@ -13,7 +13,11 @@ if page == "Currículo":
     st.subheader("Analista de Dados | Estudante de Ciências Econômicas")
     st.write("""
         Olá! Eu sou o Lucas, um entusiasta em análise de dados, apaixonado por transformar dados em insights.
+        """
+        """
         Este é o meu portfólio, onde você pode encontrar, nesta seção, informações pessoais/profissionais, contato e objetivos.
+        """
+        """
         Projetos e suas descrições você confere na seção Projetos Realizados, na barra de Navegação ao lado.
     """)
 
@@ -25,9 +29,15 @@ if page == "Currículo":
     st.write("Aqui estão alguns dos meus destaques profissionais:")
     st.write("""
     - **Experiência**: Assistente Administrativo Jr. na GFT Promotora de Crédito Consignado.
-    Ao longo de mais de dois anos, desempenhei atividades de Pricing e Inteligência de Mercado, com o objetivo de colocar o produto da empresa como destaque frente à concorrência; 
+    Ao longo de mais de dois anos, desempenhei atividades de Pricing e Inteligência de Mercado, com o objetivo de colocar o produto da empresa como destaque frente à concorrência;
+    """
+    """ 
     Para atender ao objetivo descrito acima, atividades de análise de dados internos da empresa em Banco de Dados Relacionais foram necessários;
+    """
+    """
     Além disso, realizei atividades de automação de tarefas para otimização de tempo.
+    """
+    """
     - **Educação**: cursando Ciências Econômicas na Universidade Federal do Ceará.
     - **Habilidades**: Estatística; Microeconomia; Power BI; SQL; Python; e Excel, com destaque em Power Query.
     """)
@@ -53,15 +63,6 @@ if page == "Currículo":
     - **E-mail**: lucaspfc05@gmail.com
     - **Telefone**: (85) 99239-8429
     """)
-
-    """
-    # Formulário de contato opcional
-    nome = st.text_input("Nome")
-    email = st.text_input("E-mail")
-    mensagem = st.text_area("Mensagem")
-    if st.button("Enviar"):
-        st.write(f"Obrigado pela mensagem, {nome}! Entraremos em contato em breve.")
-    """
 
 # Seção 2: Projetos
 elif page == "Projetos Realizados":
