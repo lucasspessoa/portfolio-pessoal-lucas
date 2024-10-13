@@ -54,12 +54,14 @@ if page == "Currículo":
     - **Telefone**: (85) 99239-8429
     """)
 
+    """
     # Formulário de contato opcional
     nome = st.text_input("Nome")
     email = st.text_input("E-mail")
     mensagem = st.text_area("Mensagem")
     if st.button("Enviar"):
         st.write(f"Obrigado pela mensagem, {nome}! Entraremos em contato em breve.")
+    """
 
 # Seção 2: Projetos
 elif page == "Projetos Realizados":
@@ -68,13 +70,5 @@ elif page == "Projetos Realizados":
 
     # Projeto 1: Netflix 1997 Dashboard
     if st.button("Netflix 1997 Dashboard"):
-        st.write("Análise de lucro e performance de uma empresa fictícia de streaming baseada no aluguel de DVDs.")
-        st.image("caminho_para_imagem_netflix.png")
-    
-    # Projeto 2: Análise de Vendas
-    if st.button("Análise de Vendas"):
-        st.write("Insights detalhados sobre padrões de vendas e segmentação de consumidores.")
-    
-    # Projeto 3: Portfolio de Análise de Dados
-    if st.button("Portfolio de Análise de Dados"):
-        st.write("Projetos focados em SQL, Power BI e Python, voltados para análise de dados.")
+        st.write("Análise de lucro e performance, com dados fictícios, da empresa de streaming Netflix, criada em 1997, baseada no aluguel de DVDs de filmes de sucesso do ano de 1998.")
+        st.write("[Acesse o dashboard publicado no Power BI](https://app.powerbi.com/view?r=eyJrIjoiMTcxOTVkZjMtNTZmMS00OWVlLWI4ZGItMWFjZjJhZWY0ZjI2IiwidCI6ImI1OTFhZTU0LTMzYzItNDU4OS1iZTY2LTkwMjFhNDE5NmM3YyJ9&disablecdnExpiration=1728858578)")
