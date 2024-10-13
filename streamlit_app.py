@@ -28,7 +28,10 @@ if page == "Currículo":
     st.header("Currículo")
     st.write("Aqui estão alguns dos meus destaques profissionais:")
     st.write("""
-    - **Experiência**: Assistente Administrativo Jr. na GFT Promotora de Crédito Consignado.
+    - **Experiência**: 
+    """
+    """
+    Assistente Administrativo Jr. na GFT Promotora de Crédito Consignado.
     Ao longo de mais de dois anos, desempenhei atividades de Pricing e Inteligência de Mercado, com o objetivo de colocar o produto da empresa como destaque frente à concorrência;
     """
     """ 
