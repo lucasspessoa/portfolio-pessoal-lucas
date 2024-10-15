@@ -35,10 +35,10 @@ if page == "Currículo":
     Ao longo de mais de dois anos, desempenhei atividades de Pricing e Inteligência de Mercado, com o objetivo de colocar o produto da empresa como destaque frente à concorrência;
     """
     """ 
-    Para atender ao objetivo descrito acima, atividades de análise de dados internos da empresa em Banco de Dados Relacionais foram necessários;
+    Para atender ao objetivo descrito acima, atividades de Análise de Dados internos da empresa em Banco de Dados Relacionais e habilidades Estatísticas foram necessárias;
     """
     """
-    Além disso, realizei atividades de automação de tarefas para otimização de tempo.
+    Além disso, realizei atividades de automação de tarefas para otimização de tempo. Isso permitiu melhora significativa no fluxo de trabalho do setor.
     """
     """
     - **Educação**: cursando Ciências Econômicas na Universidade Federal do Ceará.
@@ -54,7 +54,7 @@ if page == "Currículo":
     st.header("Objetivos Profissionais")
     st.write("""
     Estou buscando oportunidades para:
-    - Continuar aprimorando minhas habilidades em ferramentas como **Power BI**, **Excel**, **SQL**, e **Python**.
+    - Continuar aprimorando minhas habilidades em ferramentas como **Power BI**, **Excel**, **SQL** e **Python** com objetivo de crescer na área de dados.
     - Trabalhar em projetos que envolvam **Ciência de Dados** ou **Estatística** e **Automação de Processos**.
     - Contribuir para o desenvolvimento de estratégias baseadas em dados que impactem diretamente a tomada de decisão nas empresas.
     """)
@@ -74,5 +74,5 @@ elif page == "Projetos Realizados":
 
     # Projeto 1: Netflix 1997 Dashboard
     if st.button("Netflix 1997 Dashboard"):
-        st.write("Análise de lucro e performance, com dados fictícios, da empresa de streaming Netflix, criada em 1997, baseada no aluguel de DVDs de filmes de sucesso do ano de 1998.")
+        st.write("Análise de Lucro e Performance, com dados fictícios, da empresa de streaming Netflix, criada em 1997, baseada no aluguel de DVDs de filmes de sucesso do ano de 1998. Como objetivo, o projeto visa demonstrar a importância da Análise de Dados desde muito antes de surgir ferramentas poderosas como o Power BI.")
         st.write("[Acesse o dashboard publicado no Power BI](https://app.powerbi.com/view?r=eyJrIjoiMTcxOTVkZjMtNTZmMS00OWVlLWI4ZGItMWFjZjJhZWY0ZjI2IiwidCI6ImI1OTFhZTU0LTMzYzItNDU4OS1iZTY2LTkwMjFhNDE5NmM3YyJ9&disablecdnExpiration=1728858578)")
