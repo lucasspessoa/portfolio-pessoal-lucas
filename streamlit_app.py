@@ -46,9 +46,9 @@ if page == "Currículo":
     """)
 
     # Opção para download do currículo
-    with open("CV_Analista_Lucas.pdf", "rb") as pdf_file:
+    with open("CVLucasPessoa.pdf", "rb") as pdf_file:
         pdf_data = pdf_file.read()
-    st.download_button("Baixar Currículo", data=pdf_data, file_name="CV_Analista_Lucas.pdf")
+    st.download_button("Baixar Currículo", data=pdf_data, file_name="CVLucasPessoa.pdf")
 
     # Objetivos Profissionais
     st.header("Objetivos Profissionais")
@@ -77,7 +77,12 @@ elif page == "Projetos Realizados":
         st.write("Análise de Lucro e Performance, com dados fictícios, da empresa de streaming Netflix, criada em 1997, baseada no aluguel de DVDs de filmes de sucesso do ano de 1998. Como objetivo, o projeto visa demonstrar a importância da Análise de Dados desde muito antes de surgir ferramentas poderosas como o Power BI.")
         st.write("[Acesse o dashboard publicado no Power BI](https://app.powerbi.com/view?r=eyJrIjoiMTcxOTVkZjMtNTZmMS00OWVlLWI4ZGItMWFjZjJhZWY0ZjI2IiwidCI6ImI1OTFhZTU0LTMzYzItNDU4OS1iZTY2LTkwMjFhNDE5NmM3YyJ9&disablecdnExpiration=1728858578)")
 
-        # Projeto 2: Repositório GitHub
+    # Projeto 2: Dashboard Indicadores
+    if st.button("Dashboard Indicadores"):
+        st.write("Neste dashboard criado, pude me aprofundar no trabalho de Performance, voltado a analisar indicadores de uma Promotora de crédito, com DADOS FICTÍCIOS. Este exercício me fez se aprofundar em gráficos nativos do Power BI que são úteis para essa área tão fundamental para o desempenho de uma empresa: KPI, muito popular para análise relativa; Velocímetro, voltado a metas; Treemap, que permite visualizar hierarquia; tabela simples, sempre bem-vinda.")
+        st.write("[Acesse o dashboard publicado no Power BI](https://app.powerbi.com/view?r=eyJrIjoiMjNlNzQzZWEtYzVmMi00NTJhLWIxZDctZWQ2OWVmMjRkYmZhIiwidCI6ImI1OTFhZTU0LTMzYzItNDU4OS1iZTY2LTkwMjFhNDE5NmM3YyJ9)")
+
+        # Projeto 3: Repositório GitHub
     if st.button("Projeto Função Professor"):
         st.write("O projeto visa realizar a validação mais esperada (e temida!) pelos alunos: verificação de aprovação. Resolver esse projeto me possibilitou se aprofundar na atividade de ETL via Python, com uso da biblioteca queridinha dos analistas, o Pandas, além de foco no tratamento de planilhas Excel.")
         st.write("Veja o código completo no [GitHub](https://github.com/lucasspessoa/portfolio-dados).")
