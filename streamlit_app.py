@@ -26,7 +26,7 @@ if page == "Currículo":
 
     # Currículo
     st.header("Currículo")
-    st.write("Aqui estão alguns dos meus destaques profissionais:")
+    st.write("Aqui estão meus destaques profissionais:")
     st.write("""
     - **Experiência**: 
     """
@@ -34,21 +34,25 @@ if page == "Currículo":
     Assistente Administrativo Jr. na GFT Promotora de Crédito Consignado.
     Ao longo de mais de dois anos, desempenhei atividades de Pricing e Inteligência de Mercado, com o objetivo de colocar o produto da empresa como destaque frente à concorrência;
     """
+    """
+    Foram realizadas validações de concorrência e comparação ao preço da empresa; engenharia de precificação; custos do produto; potenciais oportunidades; entre outras tarefas.
+    """
     """ 
-    Para atender ao objetivo descrito acima, atividades de Análise de Dados internos da empresa em Banco de Dados Relacionais e habilidades Estatísticas foram necessárias;
+    Para tais atividades, foram necessárias habilidades típicas de um Analista de Dados: criação e manuseio de dashboards, realização de consultas complexas e engenharia em banco de dados relacionais (SQL) e conhecimento estatístico para tomada de decisão estratégica.
     """
     """
-    Além disso, realizei atividades de automação de tarefas para otimização de tempo. Isso permitiu melhora significativa no fluxo de trabalho do setor.
+    Além disso, realizei automação de tarefas para otimização de tempo. Isso permitiu melhora significativa no tempo de trabalho do setor e menores riscos de erro humano.
     """
     """
     - **Educação**: cursando Ciências Econômicas na Universidade Federal do Ceará.
-    - **Habilidades**: Estatística; Microeconomia; Power BI; SQL; Python; e Excel, com destaque em Power Query.
+    - **Habilidades Técnicas**: Estatística; Microeconomia para Análise de Mercado; Power BI; SQL; Python para Tratamento de Dados; Cloud Computing; e Excel, com destaque em Power Query;
+    - **Habilidades Interpessoais**: Comunicação Didática; Colaboração para Melhoria Contínua, sem medo de ouvir pontos negativos; Tranquilidade para Resolução de Problemas; Foco e Atenção em Resultados.
     """)
 
     # Opção para download do currículo
-    with open("CVLucasPessoa.pdf", "rb") as pdf_file:
+    with open("CV_Lucas.pdf", "rb") as pdf_file:
         pdf_data = pdf_file.read()
-    st.download_button("Baixar Currículo", data=pdf_data, file_name="CVLucasPessoa.pdf")
+    st.download_button("Baixar Currículo", data=pdf_data, file_name="CV_Lucas.pdf")
 
     # Objetivos Profissionais
     st.header("Objetivos Profissionais")
@@ -102,5 +106,9 @@ elif page == "Projetos Realizados":
 
         # Projeto 3: Repositório GitHub
     if st.button("Projeto Função Professor"):
-        st.write("O projeto visa realizar a validação mais esperada (e temida!) pelos alunos: verificação de aprovação. Resolver esse projeto me possibilitou se aprofundar na atividade de ETL via Python, com uso da biblioteca queridinha dos analistas, o Pandas, além de foco no tratamento de planilhas Excel.")
+        st.write("O projeto visa realizar a validação mais esperada (e temida!) pelos alunos: verificação de aprovação.")
+        st.markdown("""
+        Resolver esse projeto me possibilitou se aprofundar na seguinte atividade:
+        - **ETL** (Extrair, Transformar e Carregar) via Python, com uso da biblioteca queridinha dos analistas, o Pandas. A base de extração é via Planilha Excel. A "lib" Pandas possui ferramentas próprias para limpeza, manuseio e organização dos dados.  
+        """)
         st.write("Veja o código completo no [GitHub](https://github.com/lucasspessoa/portfolio-dados).")
