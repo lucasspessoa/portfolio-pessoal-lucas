@@ -12,10 +12,10 @@ if page == "Currículo":
     st.title("Lucas da Silva Pessoa")
     st.subheader("Analista de Dados | Estudante de Ciências Econômicas")
     st.write("""
-        Olá! Eu sou o Lucas, um entusiasta em análise de dados, apaixonado por transformar dados em insights.
+        Olá! Eu sou o Lucas, tenho 23 anos e, nas horas vagas, sou fã em catalogar filmes de sucesso. Apaixonado por aprender, sempre estou em busca de aperfeiçoar minhas habilidades.
         """
         """
-        Este é o meu portfólio, onde você pode encontrar, nesta seção, informações pessoais/profissionais, contato e objetivos.
+        Este é o meu portfólio! Nesta seção, você encontra informações pessoais/profissionais, contato e objetivos.
         """
         """
         Projetos e suas descrições você confere na seção Projetos Realizados, na barra de Navegação ao lado.
@@ -38,7 +38,7 @@ if page == "Currículo":
     Foram realizadas validações de concorrência e comparação ao preço da empresa; engenharia de precificação; custos do produto; potenciais oportunidades; entre outras tarefas.
     """
     """ 
-    Para tais atividades, foram necessárias habilidades típicas de um Analista de Dados: criação e manuseio de dashboards, realização de consultas complexas e engenharia em banco de dados relacionais (SQL) e conhecimento estatístico para tomada de decisão estratégica.
+    Para tais atividades, foram necessárias habilidades típicas de um Analista de Dados: criação e manutenção de dashboards e planilhas Excel, realização de consultas complexas e engenharia em banco de dados relacionais (SQL) e conhecimento estatístico para tomada de decisão estratégica.
     """
     """
     Além disso, realizei automação de tarefas para otimização de tempo. Isso permitiu melhora significativa no tempo de trabalho do setor e menores riscos de erro humano.
@@ -58,8 +58,9 @@ if page == "Currículo":
     st.header("Objetivos Profissionais")
     st.write("""
     Estou buscando oportunidades para:
-    - Continuar aprimorando minhas habilidades em ferramentas como **Power BI**, **Excel**, **SQL** e **Python** com objetivo de crescer na área de dados.
-    - Trabalhar em projetos que envolvam **Ciência de Dados** ou **Estatística** e **Automação de Processos**.
+    - Continuar aprimorando minhas habilidades em ferramentas como **Power BI**, **Excel**, **SQL** e **Python** com objetivo de crescer na área de dados;
+    - Aprender novas ferramentas que possam ampliar meu horizonte de trabalho;
+    - Trabalhar em projetos que envolva a **Área de Dados**/**Estatística** e **Automação de Processos**;
     - Contribuir para o desenvolvimento de estratégias baseadas em dados que impactem diretamente a tomada de decisão nas empresas.
     """)
 
