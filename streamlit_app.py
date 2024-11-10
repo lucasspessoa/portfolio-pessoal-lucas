@@ -27,32 +27,26 @@ if page == "Currículo":
     # Currículo
     st.header("Currículo")
     st.write("Aqui estão meus destaques profissionais:")
-    st.write("""
-    - **Experiência**: 
-    """
-    """
-    Assistente Administrativo Jr. na GFT Promotora de Crédito Consignado.
-    Ao longo de mais de dois anos, desempenhei atividades de Pricing e Inteligência de Mercado, com o objetivo de colocar o produto da empresa como destaque frente à concorrência;
-    """
-    """
-    Foram realizadas validações de concorrência e comparação ao preço da empresa; engenharia de precificação; custos do produto; potenciais oportunidades; entre outras tarefas.
-    """
-    """ 
-    Para tais atividades, foram necessárias habilidades típicas de um Analista de Dados: criação e manutenção de dashboards e planilhas Excel, realização de consultas complexas e engenharia em banco de dados relacionais (SQL) e conhecimento estatístico para tomada de decisão estratégica.
-    """
-    """
-    Além disso, realizei automação de tarefas para otimização de tempo. Isso permitiu melhora significativa no tempo de trabalho do setor e menores riscos de erro humano.
-    """
-    """
-    - **Educação**: cursando Ciências Econômicas na Universidade Federal do Ceará.
-    - **Habilidades Técnicas**: Estatística; Microeconomia para Análise de Mercado; Power BI; SQL; Python para Tratamento de Dados; Cloud Computing; e Excel, com destaque em Power Query;
-    - **Habilidades Interpessoais**: Comunicação Didática; Colaboração para Melhoria Contínua, sem medo de ouvir pontos negativos; Tranquilidade para Resolução de Problemas; Foco e Atenção em Resultados.
+    st.markdown("""
+    **Experiência**: Assistente Administrativo/Dados na GFT Promotora de Crédito Consignado.
+    - Realizei pesquisas de mercado para identificar oportunidades e mapear a concorrência, contribuindo para estratégias de precificação eficazes;
+    - Desenvolvi dashboards interativos que demonstraram potencial de crescimento de cerca de 5% na receita média da empresa (KPIs); 
+    - Utilizei SQL para consultas complexas, extraindo dados críticos para análises estratégicas de desempenho;
+    - Uso avançado de Excel (tabelas dinâmicas, fórmulas complexas) para tabular dados e apoiar decisões comerciais;
+    - Automatizei processos repetitivos com Power Query que reduziram minha carga de banco de horas em mais de 50%;
+    - Realizei apresentações frequentes para demonstrar os principais insights e apresentar oportunidades de melhora no Lucro da empresa.
+
+    **Educação**: cursando Ciências Econômicas na Universidade Federal do Ceará.
+    
+    **Habilidades Técnicas**: Data Analytics, Economics, Power BI, Excel, SQL, Python, Cloud Computing e Power Query;
+
+    **Habilidades Interpessoais**: Comunicação Didática; Colaboração para Melhoria Contínua, sem medo de ouvir pontos negativos; Tranquilidade para Resolução de Problemas; Foco e Atenção em Resultados.
     """)
 
     # Opção para download do currículo
-    with open("CV_Lucas.pdf", "rb") as pdf_file:
+    with open("CV_LucasPessoa.pdf", "rb") as pdf_file:
         pdf_data = pdf_file.read()
-    st.download_button("Baixar Currículo", data=pdf_data, file_name="CV_Lucas.pdf")
+    st.download_button("Baixar Currículo", data=pdf_data, file_name="CV_LucasPessoa.pdf")
 
     # Objetivos Profissionais
     st.header("Objetivos Profissionais")
@@ -126,6 +120,6 @@ elif page == "Projetos Realizados":
         st.write("O projeto visa realizar a validação mais esperada (e temida!) pelos alunos: verificação de aprovação.")
         st.markdown("""
         Resolver esse projeto me possibilitou se aprofundar na seguinte atividade:
-        - **ETL** (Extrair, Transformar e Carregar) via Python, com uso da biblioteca queridinha dos analistas, o Pandas. A base de extração é via Planilha Excel. A "lib" Pandas possui ferramentas próprias para limpeza, manuseio e organização dos dados.  
+        - **ETL** (Extrair, Transformar e Carregar) via Python, com uso da biblioteca queridinha dos analistas, o Pandas. A base de extração é via Planilha Excel. A "lib" Pandas possui ferramentas próprias para limpeza, manuseio e organização dos dados. 
         """)
         st.write("Veja o código completo no [GitHub](https://github.com/lucasspessoa/portfolio-dados).")
