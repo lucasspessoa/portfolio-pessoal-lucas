@@ -123,3 +123,15 @@ elif page == "Projetos Realizados":
         - **ETL** (Extrair, Transformar e Carregar) via Python, com uso da biblioteca queridinha dos analistas, o Pandas. A base de extração é via Planilha Excel. A "lib" Pandas possui ferramentas próprias para limpeza, manuseio e organização dos dados. 
         """)
         st.write("Veja o código completo no [GitHub](https://github.com/lucasspessoa/portfolio-dados).")
+
+        # Projeto 5: Repositório GitHub
+    if st.button("Projeto Biblioteca Faker"):
+        st.write("Por meio desse projeto, me aventurei na diversidade de bibliotecas que o Python oferece. A 'lib' Faker consegue gerar dados falsos em larga escala, sendo amplamente utilizada em testes de software, geração de dados para desenvolvimento de protótipos e em projetos de ciência de dados onde dados reais não estão disponíveis.")
+        st.markdown("""
+        Para empresas que estão interessadas em realizar testes técnicos sem expor dados internos de clientes, por exemplo, essa biblioteca permite essa alternativa ao:
+        - **Gerar Dados Personalizáveis**: Faker possui provedores de dados para uma variedade de informações, como: Nome, Endereço, Data e Hora, Dados Financeiros;
+        - **Localização e Linguagem**: Faker suporta dados localizados em várias línguas e formatos regionais;
+        - **Gerar Dados em Lote**: Faker permite gerar grandes quantidades de dados com facilidade;
+        - **Personalir Provedores de Dados**: É possível criar provedores personalizados se você precisar de tipos de dados que não estão disponíveis por padrão.
+        """)
+        st.write("Veja o código completo no [GitHub](https://github.com/lucasspessoa/biblioteca-faker).")
