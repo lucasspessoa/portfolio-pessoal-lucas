@@ -87,13 +87,14 @@ elif page == "Projetos Realizados":
 
     # Projeto 2: Dashboard Indicadores
     if st.button("Dashboard Indicadores"):
-        st.write("Neste dashboard, pude me aprofundar no trabalho de Performance, voltado a analisar indicadores de uma Promotora de crédito consignado, com DADOS FICTÍCIOS.") 
+        st.write("Neste dashboard, pude me aprofundar no trabalho de Performance voltado a analisar indicadores de uma Promotora de Crédito Consignado, com DADOS FICTÍCIOS.")
         st.markdown("""
-        Este exercício me fez se aprofundar em gráficos nativos do Power BI que são úteis para essa área tão fundamental voltada ao desempenho de uma empresa:
-        - **KPI**: muito popular para análise relativa. No dashboard, exibe a produção do último mês em relação à meta mensal da empresa;
-        - **Velocímetro**: voltado a metas. No dashboard, exibe a produção total realizada no período e a meta estipulada;
-        - **Treemap**: permite visualizar hierarquia. No dashboard, mostra a distribuição da produção de acordo com o convênio do negócio;
-        - **Tabela Simples**: sempre bem-vinda. No dashboard, mostra quem atingiu a meta específica (selo verdinho) de R$ 250 mil no convênio Privado.
+        Este exercício me permitiu se aprofundar em gráficos nativos e fórmulas do Power BI que são úteis para essa atividade tão fundamental voltada ao desempenho de uma empresa:
+        - **Segmentações**: no topo, é possível realizar filtros de período, comercial e convênio. Essa ferramenta permite visualizar análises ainda mais detalhadas, pois altera o contexto dos gráficos exibidos no dashboard;
+        - **Dados Relativos**: por vezes, informações como a participação em relação ao todo ou métricas de crescimento de um período em relação a outro ("Month-over-Month", por exemplo) são necessárias para premiar destaques individuais ou entender a saúde do negócio, por exemplo. O Power BI fornece meios de se calcular esses dados, que estão exibidos em gráficos de tabelas;
+        - **KPI e Velocímetro**: gráficos muito populares para análise relativa e de metas. No dashboard, são duas excelentes alternativas para exibir a produção total realizada no período e a meta estipulada. E parabéns a equipe comercial, que ultrapassou a meta estipulada!;
+        - **Treemap**: permite visualizar hierarquia. No dashboard, mostra a distribuição da produção de acordo com o convênio do negócio. Ainda no exemplo, demonstra a diferença de participação nas receitas da empresa;
+        - **Campanha Específica**: suponha que a empresa crie uma meta específica a cada comercial; no último gráfico de tabela simples, mostra quem atingiu a meta específica (selo verdinho) de R$ 250 mil no convênio Privado.
 
         Embora nada extravagante, também foquei em ferramentas de estilização. Uso de símbolos, paleta de cores e a visualização "clean" são marcas que particulamente me encantam na parte de design.
         """)
