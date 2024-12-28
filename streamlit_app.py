@@ -11,15 +11,13 @@ page = st.sidebar.selectbox("Escolha uma seção", ["Currículo", "Projetos Real
 if page == "Currículo":
     st.title("Lucas da Silva Pessoa")
     st.subheader("Analista de Dados | Estudante de Ciências Econômicas")
-    st.write("""
+    st.markdown("""
         Olá! Eu sou o Lucas, tenho 23 anos e, nas horas vagas, sou fã em catalogar filmes de sucesso. Apaixonado por aprender, sempre estou em busca de aperfeiçoar minhas habilidades.
-        """
-        """
+
         Este é o meu portfólio! Nesta seção, você encontra informações pessoais/profissionais, contato e objetivos.
-        """
-        """
+
         Projetos e suas descrições você confere na seção Projetos Realizados, na barra de Navegação ao lado.
-    """)
+        """)
 
     # Links para redes sociais
     st.write("[LinkedIn](https://linkedin.com/in/01lucaspessoa) | [GitHub](https://github.com/lucasspessoa)")
@@ -30,23 +28,23 @@ if page == "Currículo":
     st.markdown("""
     **Experiência**: Assistente Administrativo/Dados na GFT Promotora de Crédito Consignado.
     - Realizei pesquisas de mercado para identificar oportunidades e mapear a concorrência, contribuindo para estratégias de precificação eficazes;
-    - Desenvolvi dashboards interativos que demonstraram potencial de crescimento de cerca de 5% na receita média da empresa (KPIs); 
+    - Desenvolvi dashboards interativos que demonstraram potencial de crescimento de cerca de 5% na receita média da empresa; 
     - Utilizei SQL para consultas complexas, extraindo dados críticos para análises estratégicas de desempenho;
-    - Uso avançado de Excel (tabelas dinâmicas, fórmulas complexas) para tabular dados e apoiar decisões comerciais;
-    - Automatizei processos repetitivos com Power Query que reduziram minha carga de banco de horas em mais de 50%;
+    - Uso avançado de Excel (tabelas dinâmicas, gráficos e fórmulas complexas) para armazenar e tabular dados e apoiar decisões comerciais;
+    - Automatizei fluxos de trabalho repetitivos com Power Query que reduziram minha carga de banco de horas em mais de 50%;
     - Realizei apresentações frequentes para demonstrar os principais insights e apresentar oportunidades de melhora no Lucro da empresa.
 
-    **Educação**: cursando Ciências Econômicas na Universidade Federal do Ceará.
+    **Educação**: graduando em Ciências Econômicas na Universidade Federal do Ceará.
     
-    **Habilidades Técnicas**: Data Analytics, Economics, Power BI, Excel, SQL, Python, Cloud Computing e Power Query;
+    **Habilidades Técnicas**: Data Analytics, Economics, Machine Learning, Power BI, Excel, SQL, Python e Power Query;
 
-    **Habilidades Interpessoais**: Comunicação Didática; Colaboração para Melhoria Contínua, sem medo de ouvir pontos negativos; Tranquilidade para Resolução de Problemas; Foco e Atenção em Resultados.
+    **Habilidades Interpessoais**: Comunicação Didática; Colaboração para Melhoria Contínua, sem medo de ouvir opiniões negativas construtivas; Tranquilidade para Resolução de Problemas; Foco e Atenção em Resultados.
     """)
 
     # Opção para download do currículo
-    with open("CV_LucasPessoa.pdf", "rb") as pdf_file:
+    with open("CVLucasPessoa.pdf", "rb") as pdf_file:
         pdf_data = pdf_file.read()
-    st.download_button("Baixar Currículo", data=pdf_data, file_name="CV_LucasPessoa.pdf")
+    st.download_button("Baixar Currículo", data=pdf_data, file_name="CVLucasPessoa.pdf")
 
     # Objetivos Profissionais
     st.header("Objetivos Profissionais")
@@ -55,7 +53,8 @@ if page == "Currículo":
     - Continuar aprimorando minhas habilidades em ferramentas como **Power BI**, **Excel**, **SQL** e **Python** com objetivo de crescer na área de dados;
     - Aprender novas ferramentas que possam ampliar meu horizonte de trabalho;
     - Trabalhar em projetos que envolva a **Área de Dados**/**Estatística** e **Automação de Processos**;
-    - Contribuir para o desenvolvimento de estratégias baseadas em dados que impactem diretamente a tomada de decisão nas empresas.
+    - Contribuir para o desenvolvimento de estratégias baseadas em dados que impactem diretamente a tomada de decisão da empresa;
+    - Previsão de dados para maior acertividade nas decisões de negócio.
     """)
 
     # Contato
