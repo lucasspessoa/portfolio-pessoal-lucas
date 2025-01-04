@@ -116,13 +116,18 @@ elif page == "Projetos Realizados":
         st.write("[Acesse o dashboard publicado no Power BI](https://app.powerbi.com/view?r=eyJrIjoiNDI1NDhjMGEtMThiNS00NzI3LTgyZTgtMmEyYTY1YjZlOWQ1IiwidCI6ImI1OTFhZTU0LTMzYzItNDU4OS1iZTY2LTkwMjFhNDE5NmM3YyJ9)")
 
         # Projeto 4: Repositório GitHub
-    if st.button("Projeto Função Professor"):
-        st.write("O projeto visa realizar a validação mais esperada (e temida!) pelos alunos: verificação de aprovação.")
+    if st.button("K-means - Clusterização"):
+        st.write("De uma base de dados com valores de venda de diversos clientes, criei a seguinte missão: por meio da clusterização, conseguimos agrupar esses dados para realizar campanhas específicas?")
         st.markdown("""
-        Resolver esse projeto me possibilitou se aprofundar na seguinte atividade:
-        - **ETL** (Extrair, Transformar e Carregar) via Python, com uso da biblioteca queridinha dos analistas, o Pandas. A base de extração é via Planilha Excel. A "lib" Pandas possui ferramentas próprias para limpeza, manuseio e organização dos dados. 
+        Para concluir essa atividade, separei nas seguintes etapas:
+        - **Carregamento e tratamento de dados**: elimine valores nulos e normalize sua base de dados para resultados finais robustos;
+        - **Métodos para encontrar o "k" ideal**: o "k" significa a quantidade de grupos (clusters) para a base de dados. Por meio de Método de Cotovelo e Índice de Silhueta, é possível encontrar esse valor;
+        - **Uso de gráficos para visualização**: utilize gráficos para a visualização dos resultados. Em Python, recomendo biblioteca Matplotlib;
+        - **Rótulo da base original**: com o agrupamento feito, rotule cada observação da base original de acordo com a separação realizada.
+
+        Neste exemplo, o "k" calculado por meio do Índice de Silhueta é igual a 2. Portanto, para campanhas específicas de acordo com o valor de venda feito pelo cliente, esse trabalho de marketing precisa ser direcionado a dois grupos específicos.
         """)
-        st.write("Veja o código completo no [GitHub](https://github.com/lucasspessoa/portfolio-dados).")
+        st.write("Veja o código completo no [GitHub](https://github.com/lucasspessoa/projeto-k-means).")
 
         # Projeto 5: Repositório GitHub
     if st.button("Projeto Biblioteca Faker"):
