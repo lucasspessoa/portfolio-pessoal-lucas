@@ -119,13 +119,15 @@ elif page == "Projetos Realizados":
     if st.button("K-means - Clusterização"):
         st.write("De uma base de dados com valores de venda de diversos clientes, criei a seguinte missão: por meio da clusterização, conseguimos agrupar esses dados para realizar campanhas específicas?")
         st.markdown("""
-        Para concluir essa atividade, separei nas seguintes etapas:
+        Para concluir essa atividade, separei as seguintes etapas:
         - **Carregamento e tratamento de dados**: elimine valores nulos e normalize sua base de dados para resultados finais robustos;
-        - **Métodos para encontrar o "k" ideal**: o "k" significa a quantidade de grupos (clusters) para a base de dados. Por meio de Método de Cotovelo e Índice de Silhueta, é possível encontrar esse valor;
-        - **Uso de gráficos para visualização**: utilize gráficos para a visualização dos resultados. Em Python, recomendo biblioteca Matplotlib;
-        - **Rótulo da base original**: com o agrupamento feito, rotule cada observação da base original de acordo com a separação realizada.
+        - **Métodos para encontrar o "k" ideal**: o "k" significa a quantidade de grupos (clusters) ideal para a base de dados. Por meio de Método de Cotovelo e Índice de Silhueta, encontramos esse valor;
+        - **Uso de gráficos para visualização**: utilize gráficos para a visualização e interpretação dos resultados. Em Python, recomendo biblioteca Matplotlib;
+        - **Rótulo da base original**: com o agrupamento feito, rotule cada observação da base original de acordo com a separação realizada. A partir disso encontramos insights valiosos ao negócio.
 
-        Neste exemplo, o "k" calculado por meio do Índice de Silhueta é igual a 2. Portanto, para campanhas específicas de acordo com o valor de venda feito pelo cliente, esse trabalho de marketing precisa ser direcionado a dois grupos específicos.
+        Interpretação dos resultados: neste exemplo, o "k" ideal, encontrado por meio do Índice de Silhueta, é igual a 2. Portanto, para campanhas específicas de acordo com o valor de venda feito pelo cliente, esse trabalho de marketing precisa ser direcionado a dois grupos.
+
+        Por exemplo, podemos retirar o valioso insight de que os grupos podem ser divididos entre clientes que adquirem produtos a valores alto ou baixo de vendas.
         """)
         st.write("Veja o código completo no [GitHub](https://github.com/lucasspessoa/projeto-k-means).")
 
