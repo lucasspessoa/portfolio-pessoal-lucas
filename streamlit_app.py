@@ -28,7 +28,7 @@ if page == "Currículo":
     st.markdown("""
     **Experiência**: Assistente Administrativo/Dados na GFT Promotora de Crédito Consignado.
     - Realizei pesquisas de mercado para identificar oportunidades e mapear a concorrência, contribuindo para estratégias de precificação eficazes;
-    - Desenvolvi dashboards interativos que demonstraram potencial de crescimento de cerca de 5% na receita média da empresa; 
+    - Desenvolvi dashboards interativos que demonstraram potencial de crescimento médio de 5% na receita marginal da empresa; 
     - Utilizei SQL para consultas complexas, extraindo dados críticos para análises estratégicas de desempenho;
     - Uso avançado de Excel (tabelas dinâmicas, gráficos e fórmulas complexas) para armazenar e tabular dados e apoiar decisões comerciais;
     - Automatizei fluxos de trabalho repetitivos com Power Query que reduziram minha carga de banco de horas em mais de 50%;
@@ -86,16 +86,27 @@ elif page == "Projetos Realizados":
 
     # Projeto 2: Dashboard Indicadores
     if st.button("Dashboard Indicadores"):
-        st.write("Neste dashboard, pude me aprofundar no trabalho de Performance voltado a analisar indicadores de uma Promotora de Crédito Consignado, com DADOS FICTÍCIOS.")
+        st.write("Como você utiliza a interface do Power BI para analisar indicadores de desempenho e propor melhorias e soluções para a sua empresa? Antes, uma dica: entenda o modelo de negócio!")
         st.markdown("""
-        Este exercício me permitiu se aprofundar em gráficos nativos e fórmulas do Power BI que são úteis para essa atividade tão fundamental voltada ao desempenho de uma empresa:
-        - **Segmentações**: no topo, é possível realizar filtros de período, comercial e convênio. Essa ferramenta permite visualizar análises ainda mais detalhadas, pois altera o contexto dos gráficos exibidos no dashboard;
-        - **Dados Relativos**: por vezes, informações como a participação em relação ao todo ou métricas de crescimento de um período em relação a outro ("Month-over-Month", por exemplo) são necessárias para premiar destaques individuais ou entender a saúde do negócio, por exemplo. O Power BI fornece meios de se calcular esses dados, que estão exibidos em gráficos de tabelas;
-        - **KPI e Velocímetro**: gráficos muito populares para análise relativa e de metas. No dashboard, são duas excelentes alternativas para exibir a produção total realizada no período e a meta estipulada. E parabéns a equipe comercial, que ultrapassou a meta estipulada!;
-        - **Treemap**: permite visualizar hierarquia. No dashboard, mostra a distribuição da produção de acordo com o convênio do negócio. Ainda no exemplo, demonstra a diferença de participação nas receitas da empresa;
-        - **Campanha Específica**: suponha que a empresa crie uma meta específica a cada comercial; no último gráfico de tabela simples, mostra quem atingiu a meta específica (selo verdinho) de R$ 250 mil no convênio Privado.
+        Por meio desse dashboard interativo, demonstro as principais funcionalidades oferecidas pelo Power BI para resolver o problema acima de análise de desempenho de uma Promotora de Crédito Consignado.
 
-        Embora nada extravagante, também foquei em ferramentas de estilização. Uso de símbolos, paleta de cores e a visualização "clean" são marcas que particulamente me encantam na parte de design.
+        Primeiramente, é fundamental contextualizar o mercado em análise. No consignado, as Promotoras têm o papel de intermediar negociações financeiras -- empréstimos, por exemplo -- com desconto em folha de pagamento. No cotidiano, os Comerciais estão constantemente em análise de desempenho para trazerem produção.
+
+        Como resultados da minha análise, destaco:
+
+        Nos dois primeiros gráficos, são exibidos valores de produção (total dos valores de venda) e a proporção relativa do total produzido. Na primeira tabela, individual por comercial; na segunda, o todo da empresa, com destaque para a métrica "Month-over-Month", que demonstra o crescimento em relação ao mês anterior.
+
+        Antes de prosseguir, você conhecia essas métricas? "Month-over-Month", e até "Year-over-Year", são fundamentais para acompanhar a saúde do negócio da empresa, pois mostra o crescimento da empresa ao longo do tempo. Esses prognósticos são "chave" para recolocar a firma no eixo, ao indicar problemas de mercado ou interno.
+
+        Nos gráficos seguintes, são exibidos indicadores que medem o quanto da meta inicial foi atingido. Por meio dos nativos "KPI" e Velocímetro você visualiza esses dados. E mais: ao filtrar Comercial específico no topo do dash, ainda podemos visualizar desempenhos individuais, como o quanto cada comercial atingiu de sua própria meta estabelecida.
+
+        Como pode ser visto graficamente, todos os comerciais atingiram suas respectivas metas. Entretanto, ao retomar à tabela Produção Comercial, pode-se notar que alguns comerciais tem maior participação no total em relação a outros. Dessa forma, premiamos os mais destacáveis e analisamos como os demais podem crescer.
+
+        Por fim, o gráfico Vlr Operação Total por Convênio permite visualizar a distribuição da produção de acordo com o convênio do negócio. Por meio desse gráfico hierarquico, nota-se quais mais se destacam e assim definir prioridades e quais precisam de maior atenção com vista em crescimento de receita.
+
+        Enquanto o convênio Federal mais se destaca, o Privado parece carecer de maior atenção. Como podemos resolver isso? Por meio de uma campanha! Suponha que a Promotora crie uma meta específica a cada comercial; no último gráfico demonstrado, mostra quem atingiu a meta específica (selo verdinho) de R$ 250 mil no convênio Privado.
+
+        Estes foram os principais insights extraídos desse projeto. A interface do Power BI permite a simplicidade da análise, mas não deixa de ser importante refinar nossa capacidade analítica para resolver os problemas em questão!
         """)
         st.write("[Acesse o dashboard publicado no Power BI](https://app.powerbi.com/view?r=eyJrIjoiMjNlNzQzZWEtYzVmMi00NTJhLWIxZDctZWQ2OWVmMjRkYmZhIiwidCI6ImI1OTFhZTU0LTMzYzItNDU4OS1iZTY2LTkwMjFhNDE5NmM3YyJ9)")
 
