@@ -89,6 +89,7 @@ elif page == "Projetos Realizados":
         st.write("Problema de negócio: A empresa precisa avaliar o desempenho da equipe comercial e dos convênios para entender se a produção está atingindo as metas estabelecidas e onde há oportunidades de crescimento. Apesar do crescimento expressivo nos últimos meses, é essencial identificar quais estratégias impulsionaram esse aumento e como manter essa trajetória ascendente.")
         st.markdown("""
         **1. Análise dos Gráficos e Dados**:
+        
         1.1 Produção Comercial Individual:
         O gráfico de Produção Comercial destaca os colaboradores com maior contribuição para o total produzido. Bianca Pereira Souza e Alex Borba Severo (fictícios) representam enorme fatia (54%) da produção, indicando que uma parte significativa dos resultados está concentrada neles. Esse dado sugere a necessidade de incentivar outros colaboradores a aumentar sua participação.
 
@@ -105,6 +106,7 @@ elif page == "Projetos Realizados":
         A tabela de Campanha Convênio Privado > 250K destaca os colaboradores que mais produziram nesse segmento. O total de 1,19 milhão de reais indica que esse nicho pode ser explorado ainda mais com estratégias específicas.
         
         **2. Melhorias e Oportunidades de Negócio**:
+        
         2.1 Estratégias de Expansão e Incentivos Internos:
         - Desenvolver treinamentos específicos para os colaboradores com menor produção, visando nivelar o desempenho da equipe;
         - Criar um programa de incentivos para motivar os comerciais a aumentar suas vendas e melhorar a distribuição da produção;
