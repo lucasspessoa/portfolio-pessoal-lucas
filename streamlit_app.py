@@ -96,13 +96,13 @@ elif page == "Projetos Realizados":
         A tabela de Crescimento da Produção evidencia um aumento expressivo em novembro (+192,28%) e um crescimento contínuo em dezembro (+71,86%). Isso pode estar atrelado a campanhas, sazonalidade ou ações específicas de incentivo comercial. Identificar os fatores responsáveis permitirá replicar essas estratégias nos próximos períodos.
 
         1.3 Meta Anual e Performance:
-        O gráfico de Produção Comercial vs. Meta da Empresa mostra que a produção atingiu R$ 27,94 milhões, superando a meta de R$ 22 milhões em 26,98%. Esse resultado indica um desempenho acima do esperado, porém é necessário entender se foi um crescimento sustentável ou se dependeu de fatores sazonais.
+        O gráfico de Produção Comercial vs. Meta da Empresa mostra que a produção atingiu 27,94 milhões de reais, superando a meta de 22 milhões de reais em 26,98%. Esse resultado indica um desempenho acima do esperado, porém é necessário entender se foi um crescimento sustentável ou se dependeu de fatores sazonais.
 
         1.4 Distribuição de Operações por Convênio:
         A análise do Valor de Operação Total por Convênio revela a segmentação por fontes de receita, como Federal, Governo Estadual, Prefeitura e INSS. Essa visualização ajuda a identificar quais convênios mais contribuíram para o crescimento e onde há oportunidades de melhoria.
 
-        1.5 Produção no Convênio Privado Acima de R$ 250K:
-        A tabela de Campanha Convênio Privado > 250K destaca os colaboradores que mais produziram nesse segmento. O total de R$ 1,19 milhão indica que esse nicho pode ser explorado ainda mais com estratégias específicas.
+        1.5 Produção no Convênio Privado Acima de 250K reais:
+        A tabela de Campanha Convênio Privado > 250K destaca os colaboradores que mais produziram nesse segmento. O total de 1,19 milhão de reais indica que esse nicho pode ser explorado ainda mais com estratégias específicas.
         
         **2. Melhorias e Oportunidades de Negócio**:
         2.1 Estratégias de Expansão e Incentivos Internos:
