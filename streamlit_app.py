@@ -84,29 +84,50 @@ elif page == "Projetos Realizados":
         """)
         st.write("[Acesse o dashboard publicado no Power BI](https://app.powerbi.com/view?r=eyJrIjoiMTcxOTVkZjMtNTZmMS00OWVlLWI4ZGItMWFjZjJhZWY0ZjI2IiwidCI6ImI1OTFhZTU0LTMzYzItNDU4OS1iZTY2LTkwMjFhNDE5NmM3YyJ9&disablecdnExpiration=1728858578)")
 
-    # Projeto 2: Dashboard Indicadores
-    if st.button("Dashboard Indicadores"):
-        st.write("Como você utiliza a interface do Power BI para analisar indicadores de desempenho e propor melhorias e soluções para a sua empresa? Antes, uma dica: entenda o modelo de negócio!")
+    # Projeto 2:
+    if st.button("Análise de Produção Comercial e Estratégias para Otimização de Resultados"):
+        st.write("Problema de negócio: A empresa precisa avaliar o desempenho da equipe comercial e dos convênios para entender se a produção está atingindo as metas estabelecidas e onde há oportunidades de crescimento. Apesar do crescimento expressivo nos últimos meses, é essencial identificar quais estratégias impulsionaram esse aumento e como manter essa trajetória ascendente.")
         st.markdown("""
-        Por meio desse dashboard interativo, demonstro as principais funcionalidades oferecidas pelo Power BI para resolver o problema acima de análise de desempenho de uma Promotora de Crédito Consignado.
+        **1. Análise dos Gráficos e Dados**:
+        1.1 Produção Comercial Individual:
+        O gráfico de Produção Comercial destaca os colaboradores com maior contribuição para o total produzido. Bianca Pereira Souza e Alex Borba Severo (fictícios) representam enorme fatia (54%) da produção, indicando que uma parte significativa dos resultados está concentrada neles. Esse dado sugere a necessidade de incentivar outros colaboradores a aumentar sua participação.
 
-        Primeiramente, é fundamental contextualizar o mercado em análise. No consignado, as Promotoras têm o papel de intermediar negociações financeiras -- empréstimos, por exemplo -- com desconto em folha de pagamento. No cotidiano, os Comerciais estão constantemente em análise de desempenho para trazerem produção.
+        1.2 Crescimento da Produção Mensal:
+        A tabela de Crescimento da Produção evidencia um aumento expressivo em novembro (+192,28%) e um crescimento contínuo em dezembro (+71,86%). Isso pode estar atrelado a campanhas, sazonalidade ou ações específicas de incentivo comercial. Identificar os fatores responsáveis permitirá replicar essas estratégias nos próximos períodos.
 
-        Como resultados da minha análise, destaco:
+        1.3 Meta Anual e Performance:
+        O gráfico de Produção Comercial vs. Meta da Empresa mostra que a produção atingiu R$ 27,94 milhões, superando a meta de R$ 22 milhões em 26,98%. Esse resultado indica um desempenho acima do esperado, porém é necessário entender se foi um crescimento sustentável ou se dependeu de fatores sazonais.
 
-        Nos dois primeiros gráficos, são exibidos valores de produção (total dos valores de venda) e a proporção relativa do total produzido. Na primeira tabela, individual por comercial; na segunda, o todo da empresa, com destaque para a métrica "Month-over-Month", que demonstra o crescimento em relação ao mês anterior.
+        1.4 Distribuição de Operações por Convênio:
+        A análise do Valor de Operação Total por Convênio revela a segmentação por fontes de receita, como Federal, Governo Estadual, Prefeitura e INSS. Essa visualização ajuda a identificar quais convênios mais contribuíram para o crescimento e onde há oportunidades de melhoria.
 
-        Antes de prosseguir, você conhecia essas métricas? "Month-over-Month", e até "Year-over-Year", são fundamentais para acompanhar a saúde do negócio da empresa, pois mostra o crescimento da empresa ao longo do tempo. Esses prognósticos são "chave" para recolocar a firma no eixo, ao indicar problemas de mercado ou interno.
+        1.5 Produção no Convênio Privado Acima de R$ 250K:
+        A tabela de Campanha Convênio Privado > 250K destaca os colaboradores que mais produziram nesse segmento. O total de R$ 1,19 milhão indica que esse nicho pode ser explorado ainda mais com estratégias específicas.
+        
+        **2. Melhorias e Oportunidades de Negócio**:
+        2.1 Estratégias de Expansão e Incentivos Internos:
+        - Desenvolver treinamentos específicos para os colaboradores com menor produção, visando nivelar o desempenho da equipe;
+        - Criar um programa de incentivos para motivar os comerciais a aumentar suas vendas e melhorar a distribuição da produção;
+        - Implementar um acompanhamento contínuo de KPIs individuais para fornecer feedbacks estratégicos e ajustes em tempo real.
 
-        Nos gráficos seguintes, são exibidos indicadores que medem o quanto da meta inicial foi atingido. Por meio dos nativos "KPI" e Velocímetro você visualiza esses dados. E mais: ao filtrar Comercial específico no topo do dash, ainda podemos visualizar desempenhos individuais, como o quanto cada comercial atingiu de sua própria meta estabelecida.
+        2.2 Sustentabilidade do Crescimento:
+        - Analisar os fatores que impulsionaram o crescimento exponencial em novembro e dezembro para replicar as estratégias em outros períodos;
+        - Criar um calendário de ações comerciais alinhado a períodos de maior demanda, promovendo campanhas específicas nos meses historicamente mais fracos;
+        - Monitorar a sazonalidade dos convênios para evitar quedas bruscas na produção.
 
-        Como pode ser visto graficamente, todos os comerciais atingiram suas respectivas metas. Entretanto, ao retomar à tabela Produção Comercial, pode-se notar que alguns comerciais tem maior participação no total em relação a outros. Dessa forma, premiamos os mais destacáveis e analisamos como os demais podem crescer.
+        2.3 Expansão no Mercado Privado:
+        - O convênio privado representou uma produção relevante (R$ 1,19M), indicando que há espaço para expandir esse segmento;
+        - Desenvolver parcerias estratégicas com empresas privadas e oferecer condições especiais para atrair mais clientes;
+        - Criar campanhas exclusivas para esse nicho, explorando oportunidades fora dos setores governamentais.
 
-        Por fim, o gráfico Vlr Operação Total por Convênio permite visualizar a distribuição da produção de acordo com o convênio do negócio. Por meio desse gráfico hierarquico, nota-se quais mais se destacam e assim definir prioridades e quais precisam de maior atenção com vista em crescimento de receita.
+        2.4 Otimização dos Convênios:
+        - Avaliar quais convênios geram maior rentabilidade e estabilidade para direcionar esforços de captação;
+        - Negociar melhorias contratuais com os convênios menos rentáveis, aumentando a lucratividade das operações;
+        - Criar segmentação por convênio no dashboard para analisar padrões de crescimento e identificar os mais promissores.
 
-        Enquanto o convênio Federal mais se destaca, o Privado parece carecer de maior atenção. Como podemos resolver isso? Por meio de uma campanha! Suponha que a Promotora crie uma meta específica a cada comercial; no último gráfico demonstrado, mostra quem atingiu a meta específica (selo verdinho) de R$ 250 mil no convênio Privado.
+        Os gráficos do dashboard permitem identificar padrões de crescimento, analisar a performance individual dos colaboradores e entender quais segmentos do negócio apresentam maior potencial. A partir dessas análises, é possível criar estratégias para aumentar a eficiência da equipe comercial, expandir a atuação no mercado privado e garantir um crescimento sustentável da produção.
 
-        Estes foram os principais insights extraídos desse projeto. A interface do Power BI permite a simplicidade da análise, mas não deixa de ser importante refinar nossa capacidade analítica para resolver os problemas em questão!
+        Com ações baseadas em dados, a empresa pode maximizar seus resultados e fortalecer sua posição no mercado.
         """)
         st.write("[Acesse o dashboard publicado no Power BI](https://app.powerbi.com/view?r=eyJrIjoiMjNlNzQzZWEtYzVmMi00NTJhLWIxZDctZWQ2OWVmMjRkYmZhIiwidCI6ImI1OTFhZTU0LTMzYzItNDU4OS1iZTY2LTkwMjFhNDE5NmM3YyJ9)")
 
