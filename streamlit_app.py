@@ -133,19 +133,40 @@ elif page == "Projetos Realizados":
         """)
         st.write("[Acesse o dashboard publicado no Power BI](https://app.powerbi.com/view?r=eyJrIjoiMjNlNzQzZWEtYzVmMi00NTJhLWIxZDctZWQ2OWVmMjRkYmZhIiwidCI6ImI1OTFhZTU0LTMzYzItNDU4OS1iZTY2LTkwMjFhNDE5NmM3YyJ9)")
 
-    # Projeto 3: Dashboard Segmentação
-    if st.button("Dashboard Segmentação"):
-        st.write("Neste dashboard, destaco uma atividade fundamental a qualquer analista: a Segmentação de Clientes. Com a ajuda da biblioteca Faker, de Python, gerei base de dados fictícios para servir a esse exercício.") 
+    # Projeto 3:
+    if st.button("Segmentação de Clientes e Estratégias para Aumento de Receita"):
+        st.write("Problema de negócio: A empresa deseja entender melhor o comportamento dos clientes para otimizar suas estratégias de venda e fidelização. Com base na segmentação de renda, faixa etária e categoria de cliente, o objetivo é identificar oportunidades de crescimento e retenção, além de ajustar estratégias sazonais para maximizar o faturamento.")
         st.markdown("""
-        A segmentação é importante pois permite separar os clientes da empresa em diferentes grupos e assim obter insights valiosos que apoiem tomadas de decisões estratégicas, bem como campanhas de marketing, por exemplo.
-        Dentre as segmentações que realizei, dividi clientes por Faixa Etária, Faixa de Renda - distribuição da renda mensal individual de acordo com o Salário Mínimo vigente - e Categoria do Cliente.
-        Como principais conclusões e insights, pontuo:
-        - **segmentação por Categoria de Produto e Renda**: por meio de uma medida, calculei o Valor Médio de Compra para verificar qual categoria, na média, melhor rentabiliza para a firma e como isso se distribui de acordo com a renda do cliente;
-        - **segmentação por Categoria de Cliente**: dentre Novo, Recorrente e VIP, nota-se que a firma não possui um programa forte de fidelização, embora muitos clientes frequentes. Nessa situação, seria interessante programas de marketing que impulsionem clientes fiéis e evite perda de carteira;
-        - **segmentação por Faixa Etária e relação com o Faturamento**: com o apoio fundamental do gráfico de dispersão, é possível perceber a relação positiva das duas variáveis. Quanto mais velho o cliente, mais em valor de transações são realizadas, com exceção da faixa entre 26 e 45, que é constante;
-        - **Sazonalidade**: por meio de um gráfico de linhas, nota-se que os dados de faturamento seguem em linha até o mês de outubro, quando se registra queda abrupta até novembro. Divergente do esperado, né? Mas calma que nada como uma Black Friday para salvar o fim de ano (risos).
+        **1. Análise dos Gráficos e Dados**:
+        
+        1.1 Segmentação por Categoria e Faixa de Renda:
+        A tabela de Faturamento por Categoria e Faixa de Renda mostra que os clientes gastam valores relativamente próximos, independentemente da renda. Contudo, categorias como Esportes e Vestuário possuem ticket médio um pouco superior. Isso pode indicar que o poder de compra influencia menos do que outros fatores, como necessidade e preferência pessoal.
 
-        Realizar esse trabalho exige tempo, muita capacidade analítica e entendimento do negócio, mas entrega resultados fundamentais às firmas para entender como cada cliente age.
+        1.2 Quantidade de Transações por Categoria de Cliente:
+        O gráfico mostra que clientes Novos representam o maior volume de transações, seguidos pelos Recorrentes e, por último, pelos VIPs. Isso sugere um desafio na retenção de clientes, pois a base de clientes recorrentes não está crescendo na mesma proporção dos novos. Além disso, o número reduzido de clientes VIPs indica que poucos consumidores realizam compras de alto valor.
+
+        1.3 Faturamento por Faixa Etária:
+        O gráfico destaca que as faixas 26-35 anos e 36-45 anos geram o maior faturamento, enquanto a faixa 18-25 anos tem um volume mais baixo, e os consumidores acima de 60 anos apresentam um faturamento menor. Isso sugere que as estratégias de marketing podem ser ajustadas para atrair públicos mais jovens e idosos.
+
+        1.4 Faturamento por Mês (Sazonalidade):
+        O gráfico revela uma estabilidade no faturamento durante o ano, com uma queda acentuada em novembro. Essa queda pode indicar um problema com estratégias sazonais ou a necessidade de reforçar promoções no período.
+
+        **2. Melhorias e Oportunidades de Negócio**:
+
+        2.1 Estratégias para Aumentar a Retenção de Clientes:
+        - Criar um programa de fidelidade para incentivar compras recorrentes, oferecendo descontos progressivos ou benefícios exclusivos;
+        - Implementar estratégias personalizadas para clientes VIPs, como atendimento exclusivo e ofertas premium para aumentar a retenção desse grupo;
+        - Analisar por que muitos clientes novos não retornam e ajustar a experiência pós-compra, como e-mails de acompanhamento ou cupons para futuras compras.
+
+        2.2 Expansão para Faixas Etárias com Menor Faturamento:
+        - Criar campanhas específicas para o público 18-25 anos, utilizando estratégias voltadas para redes sociais, influenciadores e preços mais acessíveis;
+        - Explorar a base de clientes 60+, oferecendo produtos adaptados às suas necessidades e promoções específicas para essa faixa etária.
+
+        2.3 Ajuste de Estratégia Sazonal:
+        - Avaliar a queda de faturamento em novembro e criar campanhas promocionais antecipadas, como aquecimento para a Black Friday;
+        - Explorar datas comemorativas menos utilizadas ao longo do ano para incentivar compras em meses de menor faturamento.
+
+        O dashboard revela oportunidades claras para aumentar a retenção de clientes, melhorar a personalização das estratégias de marketing e ajustar campanhas sazonais. A segmentação por faixa etária e renda permite uma abordagem mais eficiente para cada público, otimizando a experiência do consumidor e impulsionando o crescimento sustentável do negócio.
         """)
         st.write("[Acesse o dashboard publicado no Power BI](https://app.powerbi.com/view?r=eyJrIjoiNDI1NDhjMGEtMThiNS00NzI3LTgyZTgtMmEyYTY1YjZlOWQ1IiwidCI6ImI1OTFhZTU0LTMzYzItNDU4OS1iZTY2LTkwMjFhNDE5NmM3YyJ9)")
 
