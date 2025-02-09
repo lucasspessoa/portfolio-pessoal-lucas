@@ -77,7 +77,8 @@ elif page == "Projetos Realizados":
         
         - Lucro Total: \\$12,4 milhões  
         - Receita Total: \\$39 milhões  
-        - Custo Total: \\$27 milhões  
+        - Custo Total: \\$27 milhões
+         
         Os valores indicam uma margem de lucro de aproximadamente 31,9\\%, o que é um desempenho sólido para o setor de aluguel de DVDs. No entanto, a distribuição dos custos e a performance de filmes individuais precisam ser analisadas para otimizar os resultados.
         
         **2. Análise da Evolução do Lucro Total por Ano e Mês**:
@@ -96,7 +97,8 @@ elif page == "Projetos Realizados":
         - Negociar melhores condições com fornecedores: reduzir custos de aquisição de filmes que não apresentam margens atrativas;  
         - Reavaliar catálogo de filmes menos rentáveis: pode ser mais lucrativo focar em títulos com melhor relação receita/custo.  
                     
-        **4. Motivo das Devoluções e Impacto no Financeiro**:  
+        **4. Motivo das Devoluções e Impacto no Financeiro**:
+ 
         O gráfico de Quantidade de Devoluções por Motivo destaca que 85,28\\% das devoluções ocorrem porque os clientes não gostaram do filme. Isso pode indicar um problema com as expectativas do público ou com a recomendação dos filmes.
 
         Impacto financeiro:
@@ -109,7 +111,8 @@ elif page == "Projetos Realizados":
         - Criar um sistema de avaliações e recomendações personalizadas para evitar aluguéis indesejados;  
         - Oferecer créditos ou descontos em futuros aluguéis para clientes que devolveram filmes insatisfeitos, incentivando novas transações.  
                     
-        **5. Análise Geográfica dos Aluguéis**:  
+        **5. Análise Geográfica dos Aluguéis**:
+          
         O mapa de Total de Aluguéis por Cidade Destino indica que algumas cidades concentram a maior parte das locações. Isso pode significar que certas regiões possuem um mercado mais consolidado, enquanto outras podem estar subexploradas.
 
         Sugestões estratégicas:
