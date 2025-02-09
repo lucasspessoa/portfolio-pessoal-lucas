@@ -70,17 +70,54 @@ elif page == "Projetos Realizados":
     st.header("Projetos")
     st.write("Aqui estão alguns dos projetos em que trabalhei:")
 
-    # Projeto 1: Dashboard Netflix 1997
-    if st.button("Dashboard Netflix 1997"):
-        st.write("Com dados fictícios, analisei Lucro e Produto da empresa de streaming Netflix, criada em 1997, baseada no aluguel de DVDs de filmes de sucesso do ano de 1998 (nostálgico?).")
+    # Projeto 1:
+    if st.button("Análise Financeira do Negócio de Aluguel de DVDs - Netflix 1997"):
         st.markdown("""
-        Além da criatividade em demonstrar a importância da Análise de Dados muito antes de existir ferramentas como Power BI, utilizei o dashboard para exibir gráficos-chave para o tipo de análise que se propõe:
-        - **Gráfico de Linha**: excelente para acompanhar tendências ao longo do tempo;
-        - **Gráfico de Barras Agrupadas**: demonstra a relação de magnitude entre duas variáveis;
-        - **Gráfico de Pizza**: embora exista limitação de elementos (recomendável não mais que 5), é útil para mostrar a composição de um todo;
-        - **Mapa**: perfeito para visualizações geográficas.
+        **1. Visão Geral dos Indicadores Financeiros**:
+        
+        - Lucro Total: \\$12,4 milhões  
+        - Receita Total: \\$39 milhões  
+        - Custo Total: \\$27 milhões  
+        Os valores indicam uma margem de lucro de aproximadamente 31,9\\%, o que é um desempenho sólido para o setor de aluguel de DVDs. No entanto, a distribuição dos custos e a performance de filmes individuais precisam ser analisadas para otimizar os resultados.
+        
+        **2. Análise da Evolução do Lucro Total por Ano e Mês**:
+        
+        O gráfico de Lucro Total ao longo do tempo mostra uma trajetória ascendente, com um crescimento mais acelerado nos últimos meses de 1998. Esse comportamento pode indicar uma expansão da base de clientes, aumento no volume de aluguéis ou melhorias na precificação dos filmes.
 
-        Plus: no Gráfico de Pizza, ainda foi inclusa a "Tooltip", ou Dica de Ferramenta, para mostrar a composição dos tipos de devoluções em relação aos filmes listados. Para visualizá-la, passe o mouse por cima de cada fatia.
+        Oportunidade de melhoria: Explorar ações promocionais, ao considerar campanhas para maximizar a receita em meses com menor crescimento.
+                    
+        **3. Receita e Custo Total por Filme**:
+        
+        A análise por filme revela que títulos como "Armageddon" e "The Waterboy" geraram as maiores receitas, mas também possuem custos elevados. Já filmes como "A Bug’s Life" e "Saving Private Ryan" apresentam menor faturamento, mas custos proporcionalmente altos.
+
+        Possíveis ações:
+
+        - Otimizar precificação de filmes com alta demanda: testar aumento de preço para títulos mais populares;  
+        - Negociar melhores condições com fornecedores: reduzir custos de aquisição de filmes que não apresentam margens atrativas;  
+        - Reavaliar catálogo de filmes menos rentáveis: pode ser mais lucrativo focar em títulos com melhor relação receita/custo.  
+                    
+        **4. Motivo das Devoluções e Impacto no Financeiro**:  
+        O gráfico de Quantidade de Devoluções por Motivo destaca que 85,28\\% das devoluções ocorrem porque os clientes não gostaram do filme. Isso pode indicar um problema com as expectativas do público ou com a recomendação dos filmes.
+
+        Impacto financeiro:
+
+        - A alta taxa de devoluções pode gerar custos operacionais adicionais (ex.: logística, reembolsos);  
+        - Clientes insatisfeitos podem reduzir a recorrência de aluguéis, impactando a receita no longo prazo.  
+        
+        Soluções possíveis:
+
+        - Criar um sistema de avaliações e recomendações personalizadas para evitar aluguéis indesejados;  
+        - Oferecer créditos ou descontos em futuros aluguéis para clientes que devolveram filmes insatisfeitos, incentivando novas transações.  
+                    
+        **5. Análise Geográfica dos Aluguéis**:  
+        O mapa de Total de Aluguéis por Cidade Destino indica que algumas cidades concentram a maior parte das locações. Isso pode significar que certas regiões possuem um mercado mais consolidado, enquanto outras podem estar subexploradas.
+
+        Sugestões estratégicas:
+
+        - Expandir a presença em cidades de baixa penetração por meio de campanhas regionais ou parcerias locais;  
+        - Ajustar a distribuição do catálogo com base na demanda de cada região, otimizando a logística de envio e reduzindo custos operacionais.
+        
+        A análise financeira do negócio revela um crescimento sólido!
         """)
         st.write("[Acesse o dashboard publicado no Power BI](https://app.powerbi.com/view?r=eyJrIjoiMTcxOTVkZjMtNTZmMS00OWVlLWI4ZGItMWFjZjJhZWY0ZjI2IiwidCI6ImI1OTFhZTU0LTMzYzItNDU4OS1iZTY2LTkwMjFhNDE5NmM3YyJ9&disablecdnExpiration=1728858578)")
 
