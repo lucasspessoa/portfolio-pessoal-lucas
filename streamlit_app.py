@@ -133,29 +133,29 @@ elif page == "Projetos Realizados":
         
         **Principais Insights**:
         
-        📌 69,71\\% dos clientes se tornaram inativos, resultando em uma perda de R$ 51 milhões.
-        📌 Regiões específicas apresentam maior concentração de churn, indicando necessidade de campanhas segmentadas.
-        📌 Clientes Comuns demoram mais tempo para realizar novas compras, sugerindo oportunidades de fidelização.
-        📌 A receita média caiu ao longo dos trimestres, evidenciando o impacto da inatividade na performance do negócio.
-        📌 Clientes de alto valor precisam ser priorizados, pois representam grande parte do faturamento.
+        - 69,71\\% dos clientes se tornaram inativos, resultando em uma perda de R$ 51 milhões.
+        - Regiões específicas apresentam maior concentração de churn, indicando necessidade de campanhas segmentadas.
+        - Clientes Comuns demoram mais tempo para realizar novas compras, sugerindo oportunidades de fidelização.
+        - A receita média caiu ao longo dos trimestres, evidenciando o impacto da inatividade na performance do negócio.
+        - Clientes de alto valor precisam ser priorizados, pois representam grande parte do faturamento.
                     
         **Gráficos e Análises**:
         
-        ✔ Indicadores de Churn e Receita Perdida: Demonstram o impacto financeiro da inatividade dos clientes.
-        ✔ Mapa de Churn por Regiões: Identifica as áreas com maior taxa de abandono.
-        ✔ Evolução das Vendas por Trimestre: Ajuda a entender as flutuações da receita ao longo do tempo.
-        ✔ Média de Dias Desde a Última Compra: Compara hábitos de consumo entre diferentes perfis de clientes.
-        ✔ Tabela de Clientes e Total Vendido: Auxilia na segmentação e priorização de clientes estratégicos. 
+        - Indicadores de Churn e Receita Perdida: Demonstram o impacto financeiro da inatividade dos clientes.
+        - Mapa de Churn por Regiões: Identifica as áreas com maior taxa de abandono.
+        - Evolução das Vendas por Trimestre: Ajuda a entender as flutuações da receita ao longo do tempo.
+        - Média de Dias Desde a Última Compra: Compara hábitos de consumo entre diferentes perfis de clientes.
+        - Tabela de Clientes e Total Vendido: Auxilia na segmentação e priorização de clientes estratégicos. 
                     
         **Oportunidades e Melhorias**:
  
-        ✅ Campanhas de Retenção Personalizadas: Ofertas exclusivas para regiões com alta taxa de churn.
-        ✅ Programas de Fidelização: Benefícios para incentivar a recorrência de compras.
-        ✅ Análises Preditivas para Prevenção de Churn: Ações proativas para evitar perdas futuras.
+        - Campanhas de Retenção Personalizadas: Ofertas exclusivas para regiões com alta taxa de churn.
+        - Programas de Fidelização: Benefícios para incentivar a recorrência de compras.
+        - Análises Preditivas para Prevenção de Churn: Ações proativas para evitar perdas futuras.
 
         Este projeto demonstra como a análise de dados pode ser aplicada na tomada de decisões estratégicas, auxiliando empresas a minimizar perdas e maximizar a retenção de clientes.
         """)
-        st.write("[Acesse o dashboard publicado no Power BI](https://app.powerbi.com/view?r=eyJrIjoiZTUzYzY2NjAtODNhNy00MTczLWI0MWQtZTBhMjMzNzBhNTMwIiwidCI6ImI1OTFhZTU0LTMzYzItNDU4OS1iZTY2LTkwMjFhNDE5NmM3YyJ9")
+        st.write("[Acesse o dashboard publicado no Power BI](https://app.powerbi.com/view?r=eyJrIjoiZTUzYzY2NjAtODNhNy00MTczLWI0MWQtZTBhMjMzNzBhNTMwIiwidCI6ImI1OTFhZTU0LTMzYzItNDU4OS1iZTY2LTkwMjFhNDE5NmM3YyJ9)")
 
     # Projeto 3:
     if st.button("Análise de Produção Comercial e Estratégias para Otimização de Resultados"):
