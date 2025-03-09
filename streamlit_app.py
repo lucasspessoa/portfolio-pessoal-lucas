@@ -42,9 +42,9 @@ if page == "Currículo":
     """)
 
     # Opção para download do currículo
-    with open("CVLucasPessoa.pdf", "rb") as pdf_file:
+    with open("CV_Dados_LucasPessoa.pdf", "rb") as pdf_file:
         pdf_data = pdf_file.read()
-    st.download_button("Baixar Currículo", data=pdf_data, file_name="CVLucasPessoa.pdf")
+    st.download_button("Baixar Currículo", data=pdf_data, file_name="CV_Dados_LucasPessoa.pdf")
 
     # Objetivos Profissionais
     st.header("Objetivos Profissionais")
@@ -125,6 +125,39 @@ elif page == "Projetos Realizados":
         st.write("[Acesse o dashboard publicado no Power BI](https://app.powerbi.com/view?r=eyJrIjoiMTcxOTVkZjMtNTZmMS00OWVlLWI4ZGItMWFjZjJhZWY0ZjI2IiwidCI6ImI1OTFhZTU0LTMzYzItNDU4OS1iZTY2LTkwMjFhNDE5NmM3YyJ9&disablecdnExpiration=1728858578)")
 
     # Projeto 2:
+    if st.button("Análise de Churn e Impacto na Receita"):
+        st.markdown("""
+        **Objetivo do Projeto**:
+        
+        Este dashboard foi desenvolvido para analisar a taxa de churn, identificar padrões de inatividade de clientes e propor estratégias para reduzir perdas financeiras. Através da visualização de dados, é possível compreender o impacto do churn na receita e tomar decisões estratégicas para aumentar a retenção de clientes.
+        
+        **Principais Insights**:
+        
+        📌 69,71\\% dos clientes se tornaram inativos, resultando em uma perda de R$ 51 milhões.
+        📌 Regiões específicas apresentam maior concentração de churn, indicando necessidade de campanhas segmentadas.
+        📌 Clientes Comuns demoram mais tempo para realizar novas compras, sugerindo oportunidades de fidelização.
+        📌 A receita média caiu ao longo dos trimestres, evidenciando o impacto da inatividade na performance do negócio.
+        📌 Clientes de alto valor precisam ser priorizados, pois representam grande parte do faturamento.
+                    
+        **Gráficos e Análises**:
+        
+        ✔ Indicadores de Churn e Receita Perdida: Demonstram o impacto financeiro da inatividade dos clientes.
+        ✔ Mapa de Churn por Regiões: Identifica as áreas com maior taxa de abandono.
+        ✔ Evolução das Vendas por Trimestre: Ajuda a entender as flutuações da receita ao longo do tempo.
+        ✔ Média de Dias Desde a Última Compra: Compara hábitos de consumo entre diferentes perfis de clientes.
+        ✔ Tabela de Clientes e Total Vendido: Auxilia na segmentação e priorização de clientes estratégicos. 
+                    
+        **Oportunidades e Melhorias**:
+ 
+        ✅ Campanhas de Retenção Personalizadas: Ofertas exclusivas para regiões com alta taxa de churn.
+        ✅ Programas de Fidelização: Benefícios para incentivar a recorrência de compras.
+        ✅ Análises Preditivas para Prevenção de Churn: Ações proativas para evitar perdas futuras.
+
+        Este projeto demonstra como a análise de dados pode ser aplicada na tomada de decisões estratégicas, auxiliando empresas a minimizar perdas e maximizar a retenção de clientes.
+        """)
+        st.write("[Acesse o dashboard publicado no Power BI](https://app.powerbi.com/view?r=eyJrIjoiZTUzYzY2NjAtODNhNy00MTczLWI0MWQtZTBhMjMzNzBhNTMwIiwidCI6ImI1OTFhZTU0LTMzYzItNDU4OS1iZTY2LTkwMjFhNDE5NmM3YyJ9")
+
+    # Projeto 3:
     if st.button("Análise de Produção Comercial e Estratégias para Otimização de Resultados"):
         st.write("Problema de negócio: A empresa precisa avaliar o desempenho da equipe comercial e dos convênios para entender se a produção está atingindo as metas estabelecidas e onde há oportunidades de crescimento. Apesar do crescimento expressivo nos últimos meses, é essencial identificar quais estratégias impulsionaram esse aumento e como manter essa trajetória ascendente.")
         st.markdown("""
@@ -173,7 +206,7 @@ elif page == "Projetos Realizados":
         """)
         st.write("[Acesse o dashboard publicado no Power BI](https://app.powerbi.com/view?r=eyJrIjoiMjNlNzQzZWEtYzVmMi00NTJhLWIxZDctZWQ2OWVmMjRkYmZhIiwidCI6ImI1OTFhZTU0LTMzYzItNDU4OS1iZTY2LTkwMjFhNDE5NmM3YyJ9)")
 
-    # Projeto 3:
+    # Projeto 4:
     if st.button("Segmentação de Clientes e Estratégias para Aumento de Receita"):
         st.write("Problema de negócio: A empresa deseja entender melhor o comportamento dos clientes para otimizar suas estratégias de venda e fidelização. Com base na segmentação de renda, faixa etária e categoria de cliente, o objetivo é identificar oportunidades de crescimento e retenção, além de ajustar estratégias sazonais para maximizar o faturamento.")
         st.markdown("""
@@ -210,7 +243,7 @@ elif page == "Projetos Realizados":
         """)
         st.write("[Acesse o dashboard publicado no Power BI](https://app.powerbi.com/view?r=eyJrIjoiNDI1NDhjMGEtMThiNS00NzI3LTgyZTgtMmEyYTY1YjZlOWQ1IiwidCI6ImI1OTFhZTU0LTMzYzItNDU4OS1iZTY2LTkwMjFhNDE5NmM3YyJ9)")
 
-        # Projeto 4: Repositório GitHub
+        # Projeto 5: Repositório GitHub
     if st.button("K-means - Clusterização"):
         st.write("De uma base de dados com valores de venda de diversos clientes, criei a seguinte missão: por meio da clusterização, conseguimos agrupar esses dados para realizar campanhas específicas?")
         st.markdown("""
@@ -226,7 +259,7 @@ elif page == "Projetos Realizados":
         """)
         st.write("Veja o código completo no [GitHub](https://github.com/lucasspessoa/projeto-k-means).")
 
-        # Projeto 5: Repositório GitHub
+        # Projeto 6: Repositório GitHub
     if st.button("Projeto Biblioteca Faker"):
         st.write("Por meio desse projeto, me aventurei na diversidade de bibliotecas que o Python oferece. A 'lib' Faker consegue gerar dados falsos em larga escala, sendo amplamente utilizada em testes de software, geração de dados para desenvolvimento de protótipos e em projetos de ciência de dados onde dados reais não estão disponíveis.")
         st.markdown("""
