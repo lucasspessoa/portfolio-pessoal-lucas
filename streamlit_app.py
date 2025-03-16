@@ -156,6 +156,7 @@ elif page == "Projetos Realizados":
         Este projeto demonstra como a análise de dados pode ser aplicada na tomada de decisões estratégicas, auxiliando empresas a minimizar perdas e maximizar a retenção de clientes.
         """)
         st.write("[Acesse o dashboard publicado no Power BI](https://app.powerbi.com/view?r=eyJrIjoiZTUzYzY2NjAtODNhNy00MTczLWI0MWQtZTBhMjMzNzBhNTMwIiwidCI6ImI1OTFhZTU0LTMzYzItNDU4OS1iZTY2LTkwMjFhNDE5NmM3YyJ9)")
+        st.write("[Acesse o repositório do projeto completo em meu Git Hub](https://github.com/lucasspessoa/projeto-churn)")
 
     # Projeto 3:
     if st.button("Análise de Produção Comercial e Estratégias para Otimização de Resultados"):
