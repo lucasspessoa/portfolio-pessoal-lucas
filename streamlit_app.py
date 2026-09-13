@@ -10,9 +10,9 @@ page = st.sidebar.selectbox("Escolha uma seção", ["Currículo", "Projetos Real
 # Seção 1: Currículo
 if page == "Currículo":
     st.title("Lucas da Silva Pessoa")
-    st.subheader("Analista de Dados | Estudante de Ciências Econômicas")
+    st.subheader("Analista de Dados | Ciências Econômicas")
     st.markdown("""
-        Olá! Eu sou o Lucas, tenho 23 anos e, nas horas vagas, sou fã em catalogar filmes de sucesso. Apaixonado por aprender, sempre estou em busca de aperfeiçoar minhas habilidades.
+        Olá! Eu sou o Lucas, tenho 25 anos e, nas horas vagas, sou fã em catalogar filmes de sucesso. Apaixonado por aprender, sempre estou em busca de aperfeiçoar minhas habilidades.
 
         Este é o meu portfólio! Nesta seção, você encontra informações pessoais/profissionais, contato e objetivos.
 
@@ -26,19 +26,20 @@ if page == "Currículo":
     st.header("Currículo")
     st.write("Aqui estão meus destaques profissionais:")
     st.markdown("""
-    **Experiência**: Assistente Administrativo/Dados na GFT Promotora de Crédito Consignado.
-    - Realizei pesquisas de mercado para identificar oportunidades e mapear a concorrência, contribuindo para estratégias de precificação eficazes;
-    - Desenvolvi dashboards interativos que demonstraram potencial de crescimento médio de 5% na receita marginal da empresa; 
-    - Utilizei SQL para consultas complexas, extraindo dados críticos para análises estratégicas de desempenho;
-    - Uso avançado de Excel (tabelas dinâmicas, gráficos e fórmulas complexas) para armazenar e tabular dados e apoiar decisões comerciais;
-    - Automatizei fluxos de trabalho repetitivos com Power Query que reduziram minha carga de banco de horas em mais de 50%;
-    - Realizei apresentações frequentes para demonstrar os principais insights e apresentar oportunidades de melhora no Lucro da empresa.
+    **Experiência 1**: Assistente/Dados na GFT Promotora de Crédito Consignado.
+    - Realização de pesquisas de mercado e análises de concorrência para identificação de oportunidades e suporte à definição de estratégias de precificação;
+    - Business Intelligence: desenvolvimento de dashboards interativos em Power BI para acompanhamento de indicadores e visualização de dados comerciais, apoiando a tomada de decisão;
+    - Elaboração de consultas complexas em SQL para extração, consolidação e análise de dados internos, fornecendo informações para análises de negócio e otimização de processos;
+    - Automação: desenvolvimento de soluções para automatização de atividades repetitivas, reduzindo o esforço operacional e a ocorrência de erros manuais, além de melhorar a eficiência do setor;
+    - Excel: apoio em rotinas administrativas para organização e estruturação com a utilização de tabelas dinâmicas, fórmulas avançadas e Power Query.
+
+    **Experiência 2**: Analista na Reali Intermediação de Negócios.
+    - Automatização de tarefas repetitivas utilizando Python e soluções avançadas em Excel, reduzindo erros manuais e otimizando significativamente o tempo destinado às operações recorrentes;
+    - SQL: consultas complexas para extração, tratamento e carga de dados internos para elaboração de produtos específicos aos clientes;
+    - Coleta, tratamento e apresentação de resultados de pesquisa, transformando dados estruturados e não estruturados em insights objetivos para direcionamento das ações internas;
+    - Organização: otimização do fluxo de trabalho para garantir fácil acesso às informações e contribuir para maior eficiência operacional e alinhamento entre as áreas.
 
     **Educação**: graduando em Ciências Econômicas na Universidade Federal do Ceará.
-    
-    **Habilidades Técnicas**: Data Analytics, Economics, Machine Learning, Power BI, Excel, SQL, Python e Power Query;
-
-    **Habilidades Interpessoais**: Comunicação Didática; Colaboração para Melhoria Contínua, sem medo de ouvir opiniões negativas construtivas; Tranquilidade para Resolução de Problemas; Foco e Atenção em Resultados.
     """)
 
     # Opção para download do currículo
